@@ -4,6 +4,9 @@ from PyQt5 import uic
 from PyQt5.QtGui import *
 import qimage2ndarray
 import numpy as np
+import cv2
+
+image = cv2.imread('Lenna.png')
 
 basic_ui = uic.loadUiType("homework_ui.ui")[0]
 
